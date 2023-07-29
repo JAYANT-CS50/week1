@@ -3,22 +3,19 @@ html, body {
   margin: 0;
 }
 
-.sample-class {
-  color: red;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-}
+
 .nav-container {
   background-color: black;
-  font-size: large; 
-  padding: 10px;
+  font-size: medium; 
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 46.5px;
 }
 
 .nav-container ul {
   list-style: none; 
   padding-left: 0;
-  margin-bottom: 0;
 }
 
 .nav-container ul li {
@@ -27,11 +24,10 @@ html, body {
 
 .nav-container ul li a {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 14px 24px;
 }
 
 .div-image{
-  margin-top: 20px;
   width: 100%; /* Set the width to 100% to fill the parent container */
   height: 800px; /* Set the desired height for the container */
   background-image: url("https://www.w3schools.com/w3images/chicago.jpg");
@@ -41,7 +37,7 @@ html, body {
   
 }
 .nav-list li a {
-  outline: none;
+  outline: none;  
 }
 .nav-box {
   border: 2px;
