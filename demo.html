@@ -9,11 +9,11 @@
 <body>
     <nav class="nav-container">
         <ul>
-            <li><a href="#home" style="color: white;">HOME</a></li>
-            <li><a href="#band" style="color: white;">BAND</a></li>
-            <li><a href="#tour" style="color: white;">TOUR</a></li>
-            <li><a href="#contact" style="color: white;">CONTACT</a></li>
-            <li><a href="#more" style="color: white;">MORE</a></li>
+            <li><a href="#home" >HOME</a></li>
+            <li><a href="#band" >BAND</a></li>
+            <li><a href="#tour" >TOUR</a></li>
+            <li><a href="#contact" >CONTACT</a></li>
+            <li><a href="#more" >MORE</a></li>
         </ul>    
     </nav>  
     <div class="div-image-one">
@@ -51,13 +51,22 @@
             <p style="color: white;">Remember to book your tickets!</p>
         </div>
         <div style="text-align: left; width: 47%; height: 10%;">
-            <p style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">Spetember &nbsp; &nbsp; &nbsp;<span style="color: white; background-color: brown; padding: 2px;">Sold Out</span></p>
-            <p style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">October &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span style="color: white; background-color: brown; padding: 2px;">Sold Out</span></p>
-            <p style="color: grey; background-color: white; padding: 10px; margin-top: 0%;">November <span style="background-color: black; color: white; padding: 5px; border-radius: 10px;">3</span></p>
+            <p style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">Spetember &nbsp; &nbsp; &nbsp;<span style="color: white; background-color: #F44336; padding: 2px;">Sold Out</span></p>
+            <p style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">October &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span style="color: white; background-color: #F44336; padding: 2px;">Sold Out</span></p>
+            <p style="color: grey; background-color: white; padding: 10px; margin-top: 0%;">November <span style="background-color: black; color: white; padding: 5px; border-radius: 50%;"> 3 </span></p>
         </div>
         <div style="width: 100%; background-color: black; display: flex; flex-wrap: wrap; text-align: left; margin-bottom: 10px; justify-content: center; margin-top: 0">
             <div style="background: white; width: 250px; margin: 5px; height: 420px;">
-                <img src="https://www.w3schools.com/w3images/newyork.jpg"  style="width: 250px"/>
+                <img src="https://www.w3schools.com/w3images/newyork.jpg"  class="card-image"/>
+                <section style="padding: 10px;">
+                    <h4>New York</h4>   
+                    <h4 style="color: gray;">Fri 27 Nov 2016 </h4>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <button class="button">Buy Tickets</button>
+                </section>
+            </div>
+            <div style="background: white; width: 250px; margin: 5px; height: 420px;">
+                <img src="https://www.w3schools.com/w3images/paris.jpg"  class="card-image"/>
                 <section style="padding: 10px;">
                     <h4>New York</h4>
                     <h4 style="color: gray;">Fri 27 Nov 2016 </h4>
@@ -66,16 +75,7 @@
                 </section>
             </div>
             <div style="background: white; width: 250px; margin: 5px; height: 420px;">
-                <img src="https://www.w3schools.com/w3images/paris.jpg"  style="width: 250px;"/>
-                <section style="padding: 10px;">
-                    <h4>New York</h4>
-                    <h4 style="color: gray;">Fri 27 Nov 2016 </h4>
-                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                    <button class="button">Buy Tickets</button>
-                </section>
-            </div>
-            <div style="background: white; width: 250px; margin: 5px; height: 420px;">
-                <img src="https://www.w3schools.com/w3images/sanfran.jpg"  style="width: 250px;"/>
+                <img src="https://www.w3schools.com/w3images/sanfran.jpg"  class="card-image"/>
                 <section style="padding: 10px;">
                     <h4>New York</h4>
                     <h4 style="color: gray;">Fri 27 Nov 2016 </h4>
@@ -113,12 +113,12 @@
     <footer>
         <div style="height: 200px; text-align: center;">
         <div style="margin-top: 70px;">
-            <i class="fa fa-facebook-f" style="font-size:24px; color:darkgray;"></i>
-            <i class='fa fa-instagram' style="font-size:24px; color:darkgray; margin-left: 4px;"></i>
-            <i class="fa fa-snapchat" style="font-size:24px ; color:darkgray; margin-left: 4px;"></i>
-            <i class="fa fa-pinterest-p" style="font-size:24px ; color:darkgray; margin-left: 4px;"></i>
-            <i class="fa fa-twitter" style='font-size:24px ; color:darkgray; margin-left: 4px;'></i>
-            <i class="fa fa-linkedin" style='font-size:24px; color:darkgray; margin-left: 4px;'></i>
+            <i class="fa fa-facebook-f icon" style="font-size:24px;" ></i>
+            <i class='fa fa-instagram icon' style="font-size:24px;  margin-left: 4px;"></i>
+            <i class="fa fa-snapchat icon" style="font-size:24px; margin-left: 4px;"></i>
+            <i class="fa fa-pinterest-p icon" style="font-size:24px; margin-left: 4px;"></i>
+            <i class="fa fa-twitter icon" style='font-size:24px; margin-left: 4px;'></i>
+            <i class="fa fa-linkedin icon" style='font-size:24px; margin-left: 4px;'></i>
         </div>
         <p style="color: darkgray;">Powered by <span style="text-decoration: underline;">nw3.css</span></p>
     </div>   
