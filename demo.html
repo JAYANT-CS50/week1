@@ -3,6 +3,8 @@
 <head>
     <title>My Basic HTML Page</title>
     <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <nav class="nav-container">
@@ -14,7 +16,7 @@
             <li><a href="#more" style="color: white;">MORE</a></li>
         </ul>    
     </nav>  
-    <div class="div-image">
+    <div class="div-image-one">
     </div>
     <div class="container-introduction">
         <div class="content" >
@@ -43,18 +45,18 @@
             </div>
     </div>
     </div>
-    <div style=" display: flex; background-color: black; justify-content: center; text-align: center; flex-wrap: wrap;">
-        <div style="width: 100%;">
-            <h1 style="color: white;">Tour Dates</h1>
-            <h3 style="color: white;">Remember to book your tickets!</h3>
+    <div style=" display: flex; background-color: black; justify-content: center; text-align: center; flex-wrap: wrap; height: 845px;">
+        <div style="width: 100%; margin-top: 45px;">
+            <h1 style="color: white; ">Tour Dates</h1>
+            <p style="color: white;">Remember to book your tickets!</p>
         </div>
-        <div style="text-align: left; width: 47%;">
-            <h4 style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">Spetember &nbsp; &nbsp; &nbsp;<span style="color: white; background-color: brown; padding: 2px;">Sold Out</span></h4>
-            <h4 style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">October &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span style="color: white; background-color: brown; padding: 2px;">Sold Out</span></h4>
-            <h4 style="color: grey; background-color: white; padding: 10px; margin-top: 0%; ">November</h4>
+        <div style="text-align: left; width: 47%; height: 10%;">
+            <p style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">Spetember &nbsp; &nbsp; &nbsp;<span style="color: white; background-color: brown; padding: 2px;">Sold Out</span></p>
+            <p style="color: grey; background-color: white; padding: 10px; margin: 0%; border-bottom: 1px solid; border-color: grey;">October &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span style="color: white; background-color: brown; padding: 2px;">Sold Out</span></p>
+            <p style="color: grey; background-color: white; padding: 10px; margin-top: 0%;">November <span style="background-color: black; color: white; padding: 5px; border-radius: 10px;">3</span></p>
         </div>
-        <div style="width: 100%; background-color: black; display: flex; flex-wrap: wrap; text-align: left; margin-bottom: 10px; justify-content: center;">
-            <div style="background: white; width: 250px; margin: 5px; ">
+        <div style="width: 100%; background-color: black; display: flex; flex-wrap: wrap; text-align: left; margin-bottom: 10px; justify-content: center; margin-top: 0">
+            <div style="background: white; width: 250px; margin: 5px; height: 420px;">
                 <img src="https://www.w3schools.com/w3images/newyork.jpg"  style="width: 250px"/>
                 <section style="padding: 10px;">
                     <h4>New York</h4>
@@ -63,7 +65,7 @@
                     <button class="button">Buy Tickets</button>
                 </section>
             </div>
-            <div style="background: white; width: 250px; margin: 5px; ">
+            <div style="background: white; width: 250px; margin: 5px; height: 420px;">
                 <img src="https://www.w3schools.com/w3images/paris.jpg"  style="width: 250px;"/>
                 <section style="padding: 10px;">
                     <h4>New York</h4>
@@ -72,7 +74,7 @@
                     <button class="button">Buy Tickets</button>
                 </section>
             </div>
-            <div style="background: white; width: 250px; margin: 5px; ">
+            <div style="background: white; width: 250px; margin: 5px; height: 420px;">
                 <img src="https://www.w3schools.com/w3images/sanfran.jpg"  style="width: 250px;"/>
                 <section style="padding: 10px;">
                     <h4>New York</h4>
@@ -83,34 +85,43 @@
             </div>
         </div>
     </div>
-    <div>
+    <div style="height: 458px; display: flex; flex-direction: column;">
         <div>
             <h1 style="text-align: center;">CONTACT</h1>
-            <h2 style="text-align: center;">Fan? Drop a note!</h2>
+            <p style="text-align: center; font-size: larger;">Fan? Drop a note!</p>
         </div>
-        <div >
-            <div>
-                Chicago, US <br>
-                Phone: +00 151515<br>
-                Email: mail@mail.com
+        <div style="display: flex; justify-content: center; margin-top: 50px;" >
+            <div style="margin-right: 100px; line-height: 30px; font-size: larger; ">
+                <i class="fa fa-map-marker" ></i>&nbsp;&nbsp; Chicago, US <br>
+                <i class="fa fa-phone" ></i>&nbsp;&nbsp; Phone:+00 151515<br>
+                <i class="fa fa-envelope" ></i>&nbsp;&nbsp;Email: mail@mail.com 
             </div>
-            <div>
+            <div style="margin-left: 100px; ">     
                 <form>
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="Email" /><br>
-                    <input type="text" placeholder="Message" /><br>
-                    <button class="button">Send</button>
+                    <input style="padding: 10px;" type="text" placeholder="Name" />
+                    <input style="padding: 10px; margin-left: 10px;" type="email" placeholder="Email" /><br>
+                    <input style="padding: 10px; width: 94%; margin-top: 10px;" type="text" placeholder="Message" /><br>
+                    <div style="text-align:right;">
+                    <button class="button" style="margin-top: 20px;" type="submit">Send</button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>  
-    <div>
-        <img src="https://www.w3schools.com/w3images/map.jpg"/>
+    <div class="div-image-two" >
     </div>
     <footer>
-        <h1>Logos</h1>
+        <div style="height: 200px; text-align: center;">
+        <div style="margin-top: 70px;">
+            <i class="fa fa-facebook-f" style="font-size:24px; color:darkgray;"></i>
+            <i class='fa fa-instagram' style="font-size:24px; color:darkgray; margin-left: 4px;"></i>
+            <i class="fa fa-snapchat" style="font-size:24px ; color:darkgray; margin-left: 4px;"></i>
+            <i class="fa fa-pinterest-p" style="font-size:24px ; color:darkgray; margin-left: 4px;"></i>
+            <i class="fa fa-twitter" style='font-size:24px ; color:darkgray; margin-left: 4px;'></i>
+            <i class="fa fa-linkedin" style='font-size:24px; color:darkgray; margin-left: 4px;'></i>
+        </div>
+        <p style="color: darkgray;">Powered by <span style="text-decoration: underline;">nw3.css</span></p>
+    </div>   
     </footer>
-    <h1 class="sample-class ">Hello, World!</h1>
-    <p>This is a basic HTML page.</p>
 </body>
 </html>

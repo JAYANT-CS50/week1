@@ -24,13 +24,22 @@ html, body {
 
 .nav-container ul li a {
   text-decoration: none;
-  padding: 14px 24px;
+  padding: 14px 20px;
 }
 
-.div-image{
+.div-image-one{
   width: 100%; /* Set the width to 100% to fill the parent container */
   height: 800px; /* Set the desired height for the container */
   background-image: url("https://www.w3schools.com/w3images/chicago.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.div-image-two{
+  width: 100%; /* Set the width to 100% to fill the parent container */
+  height: 800px; /* Set the desired height for the container */
+  background-image: url("https://www.w3schools.com/w3images/map.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,6 +70,7 @@ html, body {
 }
 .button{
   padding: 10px; background: #000; color: white; font-size:medium ;
+  border: none;
 }
 .button:hover{
   background: lightgray;
@@ -71,4 +81,17 @@ html, body {
 .nav-container ul li a:hover {
   background: lightgray;
   color: black;
+}
+.card-image{
+  height: 150px; 
+  width: 150px; 
+  margin-right: 10px; 
+  border-radius: 4%;  
+  transition: opacity 0.3s; 
+
+}
+.card-image:hover{
+  opacity: 0.7;
+
+
 }
