@@ -1,0 +1,78 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.sample-class {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.nav-container {
+  background-color: black;
+  font-size: large; 
+  padding: 10px;
+}
+
+.nav-container ul {
+  list-style: none; 
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.nav-container ul li {
+  display: inline-block;
+}
+
+.nav-container ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.div-image{
+  margin-top: 20px;
+  width: 100%; /* Set the width to 100% to fill the parent container */
+  height: 800px; /* Set the desired height for the container */
+  background-image: url("https://www.w3schools.com/w3images/chicago.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.nav-list li a {
+  outline: none;
+}
+.nav-box {
+  border: 2px;
+  border-color: beige;
+
+}
+
+.container-introduction{
+  margin-top: 25px;
+  width: 100%; /* Set the desired width for the container */
+  height: 600px; /* Set the desired height for the container */
+  display: flex; /* Use Flexbox to align the content */
+  justify-content: center; /* Center the content horizontally */
+ 
+  
+
+
+}
+.content {
+  text-align: center; /* Center text content within the container */
+}
+.button{
+  padding: 10px; background: #000; color: white; font-size:medium ;
+}
+.button:hover{
+  background: lightgray;
+  color: black;
+
+  
+}
+.nav-container ul li a:hover {
+  background: lightgray;
+  color: black;
+}
